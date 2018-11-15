@@ -1,0 +1,30 @@
+{
+  "name": "three-js-particles",
+  "version": "0.1.0",
+  "description": "Graphics ProgrammingHome Exam 2",
+  "main": "dist/index.html",
+  "scripts": {
+    "serve": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Otard95/three-js-particles.git"
+  },
+  "author": "Stian Myklebostad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Otard95/three-js-particles/issues"
+  },
+  "homepage": "https://github.com/Otard95/three-js-particles#readme",
+  "devDependencies": {
+    "sass": "^1.14.3",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/three": "^0.93.9",
+    "p5": "^0.7.2",
+    "three": "^0.98.0"
+  }
+}
